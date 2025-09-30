@@ -7,14 +7,14 @@ This persona demonstrates how new engineers can leverage AI assistance to invest
 
 ### Two Different Workflows
 1. **Guided Demo**: Follow along with the presenter's investigation
-2. **Hands-On Practice**: Audience navigates to the assistant and asks questions themselves
+2. **Hands-On Practice**: You will navigate to the assistant and ask questions yourself
 
 ### Step 1: Navigate to Assistant for LLM-Powered Investigation
 **Kick off automated investigation with the LLM agent.**
 
 From the alert view, navigate to the Grafana Assistant. This AI-powered tool can help investigate issues even if you're unfamiliar with the service or infrastructure.
 
-The audience will have the opportunity to interact with the assistant themselves, asking questions about the alerts and errors.
+You will have the opportunity to interact with the assistant yourself, asking questions about the alerts and errors.
 
 ### Step 2: Investigation Path
 **Alert triggered → profiling analysis initiated.**
@@ -49,4 +49,4 @@ The assistant executes several automated steps behind the scenes:
 - Understand how the AI arrived at its conclusions
 - Learn what data sources were consulted and why
 
-This approach helps onboarding engineers understand both the automated investigation capabilities and the manual analysis techniques they can apply to future incidents.
+This approach helps you understand both the automated investigation capabilities and the manual analysis techniques you can apply to future incidents.
