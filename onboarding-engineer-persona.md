@@ -29,7 +29,7 @@ The investigation workflow leverages the available observability data to narrow 
 The assistant executes several automated steps behind the scenes:
 - Analyzes alert context and recent changes
 - Examines service metrics and logs
-- Reviews CPU and memory profiles
+- Reviews CPU and memory metrics
 - Correlates data across multiple signals
 - Identifies anomalies and outliers
 
