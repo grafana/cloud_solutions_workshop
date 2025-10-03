@@ -3,7 +3,7 @@
 ## Scenario: Learning Through AI-Assisted Investigation
 
 ### Context
-This persona demonstrates how new engineers can leverage AI assistance to investigate production issues. The scenario covers frontend errors and alerts on the recommendation service from the "day in the life" demo production environment.
+This persona demonstrates how onboarding engineers can leverage AI assistance to investigate production issues. The scenario covers frontend errors and alerts on the recommendation service from the "day in the life" demo production environment.
 
 ### Two Different Workflows
 1. **Guided Demo**: Follow along with the presenter's investigation

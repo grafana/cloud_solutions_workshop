@@ -21,7 +21,7 @@ Discover how SREs respond to escalations using the RCA Workbench to:
 - Implement immediate fixes and long-term resolutions
 
 ### 3. [Onboarding Engineer](./onboarding-engineer-persona.md)
-Explore how new engineers leverage AI-powered investigation to:
+Explore how onboarding engineers leverage AI-powered investigation to:
 - Use the Grafana Assistant for automated analysis
 - Understand investigation workflows and profiling
 - Learn through both guided demos and hands-on practice
