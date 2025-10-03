@@ -22,8 +22,12 @@ From the Assistant text box, make sure 'deep investigation' is toggled. Use as p
 
 The investigation workflow leverages the available observability data to narrow down the issue.
 
+![Onboarding Assistant Investigation Kickoff](image_assets/onboarding_assistant_investigation_kickoff.png)
+
 ### Step 3: Investigation Workflow
 **Automated steps executed to narrow down root cause.**
+
+![Onboarding Assistant Investigation In Progress](image_assets/onboarding_assistant_investigation_in_progress.png)
 
 **Background Workflow:**
 The assistant executes several automated steps behind the scenes:
@@ -33,7 +37,7 @@ The assistant executes several automated steps behind the scenes:
 - Correlates data across multiple signals
 - Identifies anomalies and outliers
 
-**Slide Reference:** A slide will be shown displaying the background workflow steps that the assistant performs during the investigation.
+![Onboarding Assistant Investigation Completed](image_assets/onboarding_assistant_investigation_completed.png)
 
 ### Step 4: Walkthrough
 **Review pre-recorded investigation + manually analyze results.**
@@ -47,5 +51,7 @@ The assistant executes several automated steps behind the scenes:
 - Review the assistant's findings and recommendations
 - Understand how the AI arrived at its conclusions
 - Learn what data sources were consulted and why
+
+![Onboarding Assistant Investigation Completed Key Points](image_assets/onboarding_assistant_investigation_completed_key_points.png)
 
 This approach helps you understand both the automated investigation capabilities and the manual analysis techniques you can apply to future incidents.
