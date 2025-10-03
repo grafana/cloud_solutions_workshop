@@ -17,11 +17,10 @@ From the alert view, navigate to the Grafana Assistant. This AI-powered tool can
 You will have the opportunity to interact with the assistant yourself, asking questions about the alerts and errors.
 
 ### Step 2: Investigation Path
-**Alert triggered → profiling analysis initiated.**
 
-Starting from the alert (either frontend errors or recommendation service alerts), initiate an investigation. The assistant will automatically begin profiling analysis to identify the root cause.
+From the Assistant text box, make sure 'deep investigation' is toggled. Use as prompt 'what's the current issue with the recommendationservice?'. The assistant will automatically begin an investigation to identify the root cause.
 
-The investigation workflow leverages profiles and other observability data to narrow down the issue.
+The investigation workflow leverages the available observability data to narrow down the issue.
 
 ### Step 3: Investigation Workflow
 **Automated steps executed to narrow down root cause.**
