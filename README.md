@@ -1,6 +1,18 @@
 # Cloud Solutions Workshop
 
-This repository contains follow-along workshop instructions for the Cloud Solutions Workshop, demonstrating production troubleshooting scenarios using Grafana Cloud.
+This repository contains follow-along workshop instructions for the Cloud Solutions Workshop, demonstrating production troubleshooting scenarios using Grafana Cloud. 
+
+The key starting point is the recommendations visible on the product page of the Telescope e-commerce website. The recommendations are not loading due to a backend issue, which will be investigated through the personas outlined below.
+
+![alt text](image_assets/browser_error.png)
+
+## Prerequisites
+
+Before starting the workshop, ensure the `recommendationCache` feature flag is toggled. This can be done by navigating to the Feature Flags dashboard in your Grafana Cloud instance and enabling the `recommendationCache` flag (you might need to scroll down in the table panel). The dashboard is located in the "Field Eng Otel Environment" folder. **After enabling the flag, it can take up to 10 minutes for the demo scenarios to function correctly.**
+
+![alt text](image_assets/feature_flags.png)
+
+To generate user sessions for investigation as the Frontend Engineer, open the demo application in your browser and navigate to a page such as "National Park Foundation Explorascope." This will trigger the recommendations issue, providing additional real user data and errors for troubleshooting during the workshop.
 
 ## Workshop Personas
 

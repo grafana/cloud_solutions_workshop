@@ -8,7 +8,7 @@ You don't know anything about the recommendation service, but you've received an
 ### Step 1: Open RCA Workbench
 **Escalation received, alerts triggered → kick off root cause analysis.**
 
-Receive the escalation from the frontend team about recommendation service errors. Navigate through the recommendation alert to access the RCA (Root Cause Analysis) Workbench.
+Navigate through the recommendation alert to access the RCA (Root Cause Analysis) Workbench. In the search bar, type `recommendationservice connected services` to view the relevant service dependencies and health status.
 
 ![Knowledge Graph Overview showing infrastructure layers and service health](image_assets/sre_knowledge_graph_overview.png)
 
@@ -17,7 +17,7 @@ Receive the escalation from the frontend team about recommendation service error
 ![Recommendation Service Connected Entities view showing service dependencies](image_assets/sre_recommendationservice_connected_entities.png)
 
 Insights displays rings representing different layers of your infrastructure and services
-Each ring shows the health and status of components at that layer
+Each ring shows the health and status of components at that layer.
 This visualization helps quickly identify where problems originate
 
 ![Knowledge Graph Frontend Insights highlighting service relationships](image_assets/sre_knowledge_graph_frontend_insights.png)

@@ -12,16 +12,18 @@ We receive an alert indicating issues with the frontend application. Navigate to
 ### Step 2: Error Spike Detected
 **Breakdown highlights specific pages impacted.**
 
-In the main overview, we observe increased errors affecting the application. Use the breakdown view to identify which pages are affected. We discover that only certain pages are experiencing issues.
+In the main overview, we observe increased errors affecting the application. 
 
 ![Frontend Observability Overview](image_assets/frontend_observability_overview.png)
+
+Looking at the page performance panel view to see a breakdown of which pages are affected. We discover that only certain pages are experiencing issues.
+
+![Frontend Page Breakdown](image_assets/frontend_page_breakdown.png)
 
 ### Step 3: Product View
 **Critical failure state clearly visible.**
 
-Let's navigate to the product page where errors are concentrated. The product page shows only errors - a critical situation requiring immediate attention.
-
-![Frontend Page Breakdown](image_assets/frontend_page_breakdown.png)
+Let's navigate to the product page where errors are concentrated. Click on the row in the Page Performance panel that has '/product/*' in the first column. The product page shows only errors - a critical situation requiring immediate attention.
 
 ![Frontend Product Page Details](image_assets/frontend_product_page_details.png)
 
