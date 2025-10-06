@@ -58,7 +58,11 @@ Find CPU profiles for the recommendation service using `process/cpu/samples` met
 **Understanding the Flame Graph:**
 - Use AI assistance to explain the flame graph, as it's unclear what's happening
 - The flame graph shows which functions are consuming the most CPU time
-- After the flame graph explanation, ask the AI to also explain the OOM kills with the following prompt: "using the flamegraph CPU info only, what part of my code can cause OOM's"
+- After the flame graph explanation, ask the AI to also explain the OOM kills with the following prompt:
+
+```
+using the flamegraph CPU info only, what part of my code can cause OOM's
+```
 
 ![Drilldown Flame Graph visualization showing CPU time consumption by function](image_assets/sre_drilldown_flamegraph.png)
 

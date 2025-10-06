@@ -18,7 +18,13 @@ You will have the opportunity to interact with the assistant yourself, asking qu
 
 ### Step 2: Investigation Path
 
-From the Assistant text box, make sure 'deep investigation' is toggled. Use as prompt 'what's the current issue with the recommendationservice?'. The assistant will automatically begin an investigation to identify the root cause.
+From the Assistant text box, make sure 'deep investigation' is toggled. Use the following prompt:
+
+```
+what's the current issue with the recommendationservice?
+```
+
+The assistant will automatically begin an investigation to identify the root cause.
 
 The investigation workflow leverages the available observability data to narrow down the issue.
 
