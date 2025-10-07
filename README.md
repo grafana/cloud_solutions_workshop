@@ -6,13 +6,25 @@ The key starting point is the recommendations visible on the product page of the
 
 ![Browser error showing recommendations not loading on product page](image_assets/browser_error.png)
 
-## Prerequisites
+<!-- ## Prerequisites
 
 Before starting the workshop, ensure the `recommendationCache` feature flag is toggled. This can be done by navigating to the Feature Flags dashboard in your Grafana Cloud instance and enabling the `recommendationCache` flag (you might need to scroll down in the table panel). The dashboard is located in the "Field Eng Otel Environment" folder. **After enabling the flag, it can take up to 10 minutes for the demo scenarios to function correctly.**
 
-![Feature Flags dashboard with recommendationCache flag highlighted](image_assets/feature_flags.png)
+![Feature Flags dashboard with recommendationCache flag highlighted](image_assets/feature_flags.png) -->
 
-To generate user sessions for investigation as the Frontend Engineer, open the demo application in your browser and navigate to a page such as "National Park Foundation Explorascope." This will trigger the recommendations issue, providing additional real user data and errors for troubleshooting during the workshop.
+## Demo Shop URLs
+
+Each workshop participant will use their own dedicated demo shop URL for the Telescope e-commerce application. The demo shop URL corresponds to your Grafana Cloud environment URL:
+
+- **Grafana Environment**: `https://bfec17.field-eng-demo.grafana.net/`
+  **Demo Shop**: `https://bfec17.grafana.net/`
+
+- **Grafana Environment**: `https://aecf14.field-eng-demo.grafana.net/`
+  **Demo Shop**: `https://aecf14.grafana.net/`
+
+**Note**: The first part of the demo shop URL (e.g., `bfec17`, `aecf14`) matches your Grafana environment URL identifier.
+
+To generate user sessions for investigation as the Frontend Engineer, open your assigned demo shop in your browser and navigate to a page such as "National Park Foundation Explorascope." This will trigger the recommendations issue, providing additional real user data and errors for troubleshooting during the workshop.
 
 ## Workshop Personas
 
