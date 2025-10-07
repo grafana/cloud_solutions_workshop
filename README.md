@@ -16,13 +16,12 @@ Before starting the workshop, ensure the `recommendationCache` feature flag is t
 
 Each workshop participant will use their own dedicated demo shop URL for the Telescope e-commerce application. The demo shop URL corresponds to your Grafana Cloud environment URL:
 
-- **Grafana Environment**: `https://bfec17.field-eng-demo.grafana.net/`
-  **Demo Shop**: `https://bfec17.grafana.net/`
+| Grafana Environment | Demo Shop |
+|---------------------|-----------|
+| `https://bfec17.field-eng-demo.grafana.net/` | `https://bfec17.grafana.net/` |
+| `https://aecf14.field-eng-demo.grafana.net/` | `https://aecf14.grafana.net/` |
 
-- **Grafana Environment**: `https://aecf14.field-eng-demo.grafana.net/`
-  **Demo Shop**: `https://aecf14.grafana.net/`
-
-**Note**: The first part of the demo shop URL (e.g., `bfec17`, `aecf14`) matches your Grafana environment URL identifier.
+> **Note**: The first part of the demo shop URL (e.g., `bfec17`, `aecf14`) matches your Grafana environment URL identifier.
 
 To generate user sessions for investigation as the Frontend Engineer, open your assigned demo shop in your browser and navigate to a page such as "National Park Foundation Explorascope." This will trigger the recommendations issue, providing additional real user data and errors for troubleshooting during the workshop.
 
